@@ -1,0 +1,41 @@
+body{
+    /*background-color: black;*/
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/0d/0f/34/0d0f34ebe93b0a6b97620367f52c6a1f.jpg);
+}
+
+#jeu {
+    display: inline-block;
+    text-align: center;
+    background-color: blue;
+    
+}
+
+.col{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+    display: inline-block;
+}
+
+.col.empty{
+    cursor: pointer;
+}
+
+.col.rouge{
+    background-color: red;
+}
+
+.col.jaune{
+    background-color: yellow;
+}
+
+.col.prouge{
+    background-color: darkred;
+}
+
+.col.pjaune{
+    background-color: darkgoldenrod;
+}
